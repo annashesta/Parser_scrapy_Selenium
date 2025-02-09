@@ -1,3 +1,5 @@
+# scrapy crawl wiki_movie_parser
+
 import scrapy
 
 class WikiMovieParserSpider(scrapy.Spider):

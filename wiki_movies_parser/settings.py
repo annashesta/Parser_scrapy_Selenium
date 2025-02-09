@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = "wiki_movies_parser.spiders"
 FEED_FORMAT = "csv"
 
 # Путь к файлу для сохранения результатов
-FEED_URI = "movies.csv"
+FEED_URI = "../movies.csv"
 # FEED_URI = 'movies_with_ratings.csv'  # Имя выходного файла
 FEED_EXPORT_ENCODING = 'utf-8'  # Кодировка для экспорта
 
