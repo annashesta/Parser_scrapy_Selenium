@@ -49,7 +49,7 @@ def process_row(row):
 
 # Чтение данных из movies.csv
 input_file = '../movies.csv'
-output_file = '../../rating_movies_selenium.csv'
+output_file = '../rating_movies_selenium.csv'
 
 # Открываем файл для чтения и создаем новый файл для записи
 with open(input_file, mode='r', encoding='utf-8') as infile, open(output_file, mode='w', encoding='utf-8', newline='') as outfile:
